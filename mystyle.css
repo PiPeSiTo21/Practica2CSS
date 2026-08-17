@@ -1,46 +1,48 @@
 #medico1 {
 	background-color:hsl(340, 55%, 67%);
     border: 2px solid red;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #medico2 {
 	background-color:#b7e8a2;
     border: 2px solid green;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #medico3{
 	background-color:#adb6c2;
     border: 2px solid blue;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 #medico4 {
 	background-color:#adb6c2;
     border: 2px solid blue;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #medico5 {
 	background-color:#b7e8a2;
     border: 2px solid green;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #medico6{
 	background-color:hsl(340, 55%, 67%);
     border: 2px solid red;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .grid-container1 {
   display: grid;
   grid-template-columns: 33% 33% 33%;
+  gap: 20px;
 }
 
 .grid-container2 {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 h1 {
@@ -80,5 +82,8 @@ h2{
     color: blue;
 }
 
+#medico1, #medico2, #medico3, #medico4, #medico5, #medico6 {
+    padding: 20px;  
+}
 
 
