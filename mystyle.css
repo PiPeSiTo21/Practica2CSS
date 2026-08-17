@@ -1,0 +1,78 @@
+#medico1 {
+	background-color:hsl(340, 55%, 67%);
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+#medico2 {
+	background-color:#b7e8a2;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#medico3{
+	background-color:#adb6c2;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+#medico4 {
+	background-color:#3EB6BC;
+}
+
+#medico5 {
+	background-color:#FFF4A3;
+}
+
+#medico6{
+	background-color:#FFC0C7;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.alineadoDerecha{
+    text-align: right;
+}
+
+.alineadoCentro{
+    text-align: center;
+}
+
+.alineadoIzquierda{
+    text-align: left;
+}
+
+#divTitulo{
+    width: 400px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.descripcionMedico{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: blue;
+}
+
+
+
