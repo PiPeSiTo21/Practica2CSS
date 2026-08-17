@@ -16,15 +16,21 @@
     border-radius: 5px;
 }
 #medico4 {
-	background-color:#3EB6BC;
+	background-color:#adb6c2;
+    border: 2px solid blue;
+    border-radius: 5px;
 }
 
 #medico5 {
-	background-color:#FFF4A3;
+	background-color:#b7e8a2;
+    border: 2px solid green;
+    border-radius: 5px;
 }
 
 #medico6{
-	background-color:#FFC0C7;
+	background-color:hsl(340, 55%, 67%);
+    border: 2px solid red;
+    border-radius: 5px;
 }
 
 .grid-container1 {
