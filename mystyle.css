@@ -31,6 +31,14 @@
 	background-color:hsl(340, 55%, 67%);
     border: 2px solid red;
     border-radius: 15px;
+}  
+
+#piePagina{
+    background-color: rgb(233, 209, 155);
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 auto 40px auto;
 }
 
 .grid-container1 {
@@ -43,6 +51,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+  margin: 10px;
 }
 
 h1 {
@@ -55,6 +64,11 @@ h1 {
 h2{
     color: blue;
     font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .alineadoDerecha{
