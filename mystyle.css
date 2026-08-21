@@ -1,3 +1,4 @@
+/* Tarjetas de médicos con colores distintivos */
 #medico1 {
 	background-color:hsl(340, 55%, 67%);
     border: 2px solid red;
@@ -33,6 +34,7 @@
     border-radius: 15px;
 }  
 
+/* Pie de página */
 #piePagina{
     background-color: rgb(233, 209, 155);
     border: 2px solid rgb(155, 155, 155);
@@ -41,6 +43,7 @@
     margin: 0 auto 40px auto;
 }
 
+/* Contenedores en grid de 3 columnas */
 .grid-container1 {
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -54,6 +57,7 @@
   margin: 10px;
 }
 
+/* Estilos de títulos */
 h1 {
     color: blue;
     text-align: center;
@@ -71,6 +75,7 @@ h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Utilidades de alineación */
 .alineadoDerecha{
     text-align: right;
 }
@@ -83,6 +88,7 @@ h3{
     text-align: left;
 }
 
+/* Contenedor del título principal */
 #divTitulo{
     width: 400px;
     margin: auto;
@@ -90,16 +96,19 @@ h3{
     padding-bottom: 50px;
 }
 
+/* Descripción de médicos */
 .descripcionMedico{
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     color: blue;
 }
 
+/* Padding uniforme para todas las tarjetas */
 #medico1, #medico2, #medico3, #medico4, #medico5, #medico6 {
     padding: 20px;  
 }
 
+/* Imagen del médico */
 .imagen-medico {
     margin: 10px 0;
 }
@@ -110,6 +119,7 @@ h3{
     
 }
 
+/* Botón agendar con efecto */
 .btn-agendar {
     background-color: #007bff;
     color: white;
